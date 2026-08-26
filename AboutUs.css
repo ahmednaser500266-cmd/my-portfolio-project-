@@ -1,0 +1,542 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    min-width: auto;
+}
+ 
+#ico1 {
+    display: none;
+}
+
+#firnav {
+    height: 44px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20.97px;
+    color: #FFFFFF;
+    font-family: Arabic UI Display;
+    line-height: 20.97px;
+    flex-wrap: wrap;
+}
+
+.firnav2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#alllove2 {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.nav {
+    display: flex;
+    height: 70%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#genius {
+    width: 300px;
+    height: 45px;
+}
+
+header {
+    height: 170px;
+    width: auto;
+    font-family: Arabic UI Display;
+    flex-wrap: wrap;
+}
+
+#nav2 {
+    display: flex;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 16px;
+    font-weight: bold;
+    gap: 63px;
+}
+
+.sing {
+    display: flex;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 16px;
+    font-weight: bold;
+    width: 25%;
+    height: 42px;
+}
+
+#now21 {
+    width: 60%;
+    align-items: center;
+}
+
+#now22 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #F04B25;
+    width: 50%;
+    height: 45px;
+    border-radius: 22.5px;
+}
+
+@media only screen and (max-width: 767px) {
+
+    /* For mobile phones: */
+    #im1 {
+        width: 40%;
+        height: 50%;
+        display: flex;
+        align-self: center;
+        padding-left: 6rem;
+    }
+
+    #nav2 {
+        display: none;
+    }
+
+    #nav2 {
+        display: none;
+    }
+
+    #now21,
+    #now22 {
+        display: none;
+    }
+
+    #ico1 {
+        display: inline;
+    }
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    #now21,
+    #now22 {
+        display: none;
+    }
+
+    .nav {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #nav2 {
+        margin-top: 2rem;
+    }
+
+ 
+    .sing{
+        margin-top: 1rem;
+        width: 13%;
+    }
+    #ico1 {
+        display: inline; 
+        
+    }
+
+}
+
+/* end of the headr and nav */
+
+/* <!--start of the HeadoffthePAge --> */
+.allgir25 {
+    flex-wrap: wrap;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    gap: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.smallgir24 {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    size: 65px;
+    line-height: 101.21px;
+    flex-wrap: wrap;
+}
+
+.smallgir25 {
+    float: none;
+    display: flex;
+    height: 20%;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    width: 57%;
+    font-weight: 700;
+    justify-content: center;
+    flex-direction: column;
+    align-content: flex-end;
+}
+
+@media only screen and (max-width: 767px) {
+
+    /* For mobile phones: */
+    #im1 {
+        width: 94%;
+        height: 40%;
+        display: flex;
+        align-self: center;
+        margin-left: -2rem;
+    }
+
+    .smallgir25 {
+        width: 100%;
+    }
+
+    #sg1 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .smallgir24 {
+        width: 97%;
+        font-size: 30px;
+    }
+
+    #grow1 {
+        font-size: 38px;
+        line-height: 56px;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .allgir25 {
+        font-size: 26px;
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .smallgir25 {
+        display: flex;
+        width: 100%;
+        align-content: flex-end;
+    }
+
+    .smallgir24 {
+        width: 49%;
+        font-size: 30px;
+    }
+
+    #im1 {
+        width: 70%;
+        height: 60%;
+    }
+
+    #sg1 {
+        width: 100%;
+        height: 63%;
+        text-align: right;
+        color: #616161;
+    }
+
+
+    #im1 {
+        width: 60%;
+        height: 60%;
+        margin-left: 3rem;
+    }
+
+    #grow1 {
+        font-size: 39px;
+        line-height: 60px;
+    }
+
+}
+
+#sg1 {
+    display: flex;
+    width: 72%;
+    height: 83%;
+    text-align: right;
+    color: #616161;
+}
+
+.sg2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #F04B25;
+    width: 50%;
+    height: 45px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+
+.ourcors26 {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    font-weight: 700;
+    height: 50%;
+    width: 50%;
+    gap: 10px;
+}
+
+/* <!--ENd of the HeadoffthePAge --> */
+
+
+
+/* <!-- end of the Squaers --> */
+.bigclss1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    align-content: space-between;
+}
+
+.ourTarget {
+    font-weight: 700;
+    font-size: 47px;
+    margin-right: 0rem;
+    width: 92%;
+    text-align: right;
+}
+
+.twoTarget {
+    font-weight: 600;
+    font-size: 26px;
+    margin-right: 0rem;
+    width: 62%;
+    text-align: right;
+}
+
+.thirTarget {
+    text-align: right;
+    font-weight: 300;
+    font-size: 18px;
+    margin-right: 0rem;
+    width: 76%;
+    text-align: right;
+}
+
+@media only screen and (max-width: 767px) {
+    .ourTarget {
+        font-size: 146%;
+    }
+
+
+    .twoTarget,
+    .thirTarget {
+        font-size: 100%;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+
+    .ourTarget {
+        font-size: 223%;
+    }
+
+    .twoTarget,
+    .thirTarget {
+        font-size: 100%;
+    }
+}
+
+/* <!-- end of the Squaers --> */
+
+
+.smallgir24 {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    size: 65px;
+    line-height: 101.21px;
+    flex-wrap: wrap;
+}
+
+.smallgir25 {
+    float: none;
+    display: flex;
+    height: 20%;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    width: 57%;
+    font-weight: 700;
+    justify-content: center;
+    flex-direction: column;
+    align-content: flex-end;
+}
+
+@media only screen and (max-width: 767px) {
+
+    /* For mobile phones: */
+
+
+    .smallgir25 {
+        width: 100%;
+    }
+
+    #sg1 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .smallgir24 {
+        width: 97%;
+        font-size: 30px;
+    }
+
+ 
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .allgir25 {
+        font-size: 30px;
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .smallgir25 {
+        display: flex;
+        width: 100%;
+        align-content: flex-end;
+    }
+
+    .smallgir24 {
+        width: 49%;
+        font-size: 30px;
+    }
+
+
+
+    #sg1 {
+        width: 100%;
+        height: 63%;
+        text-align: right;
+        color: #616161;
+    }
+
+
+}
+
+#sg1 {
+    display: flex;
+    width: 62%;
+    height: 83%;
+    text-align: right;
+    color: #616161;
+}
+
+
+
+#lastWord{
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 65px;
+    line-height: 101.21px;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+
+#lastWord2{
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    width: 50%;
+    color: #616161;
+    
+    flex-wrap: wrap;
+
+}
+
+
+@media only screen and (max-width: 767px) {
+    #lastWord2{
+       display: none;
+       
+    }
+
+
+}
+
+
+/* Footer */
+.footer {
+    display: flex;
+    height: 460px;
+    width:
+        93%;
+    margin-left: 2.5rem;
+    margin-bottom: 3rem;
+    background: #F04B25;
+    border-radius: 1px;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+
+.coll1 {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: right;
+    line-height: 30px;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}
+
+.biGico {
+    margin-top: 3rem;
+    height: 100%;
+    text-align: right;
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 767px) {
+    .footer {
+        margin-top: 50px;
+        height: 30%;
+        width: 88%;
+
+    }
+
+    .fotronhide {
+        display: none;
+    }
+
+    #lasphft {
+        padding-bottom: 1rem;
+        width: 90%;
+        height: 100%;
+    }
+}
+
+/* Footer END */
+

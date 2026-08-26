@@ -1,0 +1,827 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    min-width: auto;
+}
+
+#ico1 {
+    display: none;
+}
+
+#firnav {
+    height: 44px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20.97px;
+    color: #FFFFFF;
+    font-family: Arabic UI Display;
+    line-height: 20.97px;
+    flex-wrap: wrap;
+}
+
+.firnav2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#alllove2 {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.nav {
+    display: flex;
+    height: 70%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#genius {
+    width: 300px;
+    height: 45px;
+}
+
+header {
+    height: 170px;
+    width: auto;
+    font-family: Arabic UI Display;
+    flex-wrap: wrap;
+}
+
+#nav2 {
+    display: flex;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 16px;
+    font-weight: bold;
+    gap: 63px;
+}
+
+.sing {
+    display: flex;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 16px;
+    font-weight: bold;
+    width: 25%;
+    height: 42px;
+}
+
+#now21 {
+    width: 60%;
+    align-items: center;
+}
+
+#now22 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #F04B25;
+    width: 50%;
+    height: 45px;
+    border-radius: 22.5px;
+}
+
+@media only screen and (max-width: 767px) {
+
+    /* For mobile phones: */
+    #im1 {
+        width: 40%;
+        height: 50%;
+        display: flex;
+        align-self: center;
+        padding-left: 6rem;
+    }
+
+    #nav2 {
+        display: none;
+    }
+
+    #nav2 {
+        display: none;
+    }
+
+    #now21,
+    #now22 {
+        display: none;
+    }
+
+    #ico1 {
+        display: inline;
+    }
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+
+    #im1 {
+        width: 70%;
+        height: 60%;
+    }
+
+    #now21,
+    #now22 {
+        display: none;
+    }
+
+    .nav {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+
+    #nav2 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+}
+
+/* end of the headr and nav */
+
+#tex62 {
+    color: white;
+    background-color: #F4A905;
+    width: 100%;
+    height: 9%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.03px;
+    border-radius: 9px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#tex63 {
+    color: #12376B;
+    width: 100%;
+    height: 9%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 37px;
+    justify-content: center;
+}
+
+.allPounds {
+    background-color: #F5A805;
+    height: 16%;
+    width: 81%;
+    margin-left: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.egPounds {
+    color: #9B6900;
+    width: 54%;
+    height: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 0px;
+    margin-left: 1rem;
+    margin-bottom: 0rem;
+    font-weight: 600;
+}
+
+
+.egPounds2 {
+    color: white;
+
+    width: 17%;
+    height: 32%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-right: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.sg2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #F5A805;
+    width: 90%;
+    height: 90px;
+    border-radius: 26px;
+    color: #12376B;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+
+}
+
+
+.gols26 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 2rem;
+}
+
+.gols27 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+    color: #909090;
+}
+
+.gols28 {
+    width: 478px;
+    height: 5px;
+    font-family: IBM Plex Sans Arabic;
+    font-weight: 700;
+    font-size: 50PX;
+    line-height: 62.8px;
+    text-align: right;
+}
+
+@media only screen and (max-width: 767px) {
+    .gols28 {
+        width: 57%;
+        height: 0%;
+        font-size: 20px;
+    }
+
+    .left29 {
+        width: 22%;
+        height: 11%;
+        align-self: flex-end;
+    }
+
+
+
+}
+
+.cards56 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: right;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 400;
+    color: #F5A805;
+}
+
+@media only screen and (max-width: 767px) {
+
+    #smPH55,
+    #smPH57,
+    #tex108,
+    #LasIco22 {
+        display: none;
+    }
+
+    #tex62 {
+        font-size: 80%;
+    }
+
+    #tex63 {
+        font-size: 100%;
+        height: 4%;
+        margin-bottom: 13px;
+        line-height: 17px;
+    }
+
+    #Requ99 {
+        margin-bottom: 10px;
+        width: 100%;
+        height: 100%;
+        line-height: 13px;
+
+    }
+
+
+    /* .allPounds,.sg2{
+    display: none;
+} */
+
+    .egPounds {
+        display: none;
+    }
+
+    .allPounds {
+        width: 67%;
+        height: 12%;
+        align-items: center;
+        font-size: 12px;
+        border-radius: 30px;
+
+    }
+
+    #sawsan2 {
+        width: 50%;
+        margin-left: -12px;
+
+    }
+
+    .sg2 {
+
+        font-size: 15px;
+        width: 82%;
+        height: 12%;
+        border-radius: 30px;
+    }
+
+    #sg3 {
+        display: none;
+    }
+
+    #sidchild {
+        width: 214px;
+    }
+
+    #group73 {
+        width: 454px;
+        height: 74%;
+    }
+
+    #ph8887 {
+        width: 429px;
+    }
+
+    .inside1 {
+        height: 50px;
+        width: 5px;
+    }
+
+    #BigBOy108 {
+        width: 100%;
+    }
+
+    #carouselExampleDark {
+        width: 100%;
+    }
+
+}
+
+.gols26 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 2rem;
+}
+
+.gols27 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+    color: #12376B;
+}
+
+.gols28 {
+    width: 478px;
+    height: 126px;
+    font-family: IBM Plex Sans Arabic;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 62.8px;
+    text-align: right;
+
+}
+
+@media only screen and (max-width: 767px) {
+    .gols28 {
+        width: 57%;
+        height: 50%;
+        font-size: 20px;
+    }
+
+    .left29 {
+        width: 22%;
+        height: 11%;
+        align-self: flex-end;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .fathchil55 {
+        flex-direction: row;
+        align-content: center;
+        display: flex;
+    }
+
+
+    .card-body3 {
+        width: 50%;
+
+    }
+
+    #cB4 {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .card-2 {
+        width: 45%;
+    }
+
+    #cB4 {
+        display: none;
+    }
+
+    #cB5 {
+        display: none;
+    }
+
+    .fathchil55 {
+
+        flex-direction: column;
+        align-content: center;
+    }
+
+}
+
+/* insider 3*/
+.fathchil55 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.card-body3 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: IBM Plex Sans Arabic;
+    border-radius: 10px;
+
+}
+
+.tex31 {
+    font-weight: 400;
+    text-align: right;
+    line-height: 28.3px;
+    width: 73%;
+    display: flex;
+    margin-left: 2.25rem;
+    font-size: 19px;
+}
+
+.tex32 {
+    color: #686868;
+    font-weight: 700;
+    text-align: right;
+    line-height: 28.3px;
+    width: 85%;
+    display: flex;
+    justify-content: flex-end;
+    height: 4%;
+}
+
+.tex33 {
+    display: flex;
+    font-weight: 500;
+    text-align: right;
+    line-height: 28.3px;
+    font-size: 14px;
+    width: 85%;
+    display: flex;
+    justify-content: flex-end;
+    height: 5%;
+
+
+}
+
+/* /* startgroub card */
+.card {
+
+    width: 565px;
+    height: 196px;
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+
+
+}
+
+.card-header {
+    display: flex;
+    border-radius: 10px;
+    gap: 17px;
+
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    font-size: 25px;
+    font-weight: 700;
+    border: none;
+
+}
+
+.card-body {
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 10px;
+
+
+}
+
+.card-title {
+    width: 337px;
+    height: 69px;
+    font-size: 15px;
+    line-height: 22.9px;
+    text-align: right;
+    border-radius: 10px;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    .card,
+    .card-body,
+    .card-header,
+    .card-title {
+        width: 99%;
+        height: 41%;
+    }
+
+}
+
+.card-2 {
+    width: 16.4rem;
+
+}
+
+.card-body2 {
+    height: 9rem;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.card-title2 {
+    font-weight: 700;
+    font-size: 27.75px;
+    margin-right: 1rem;
+    text-align: right;
+}
+
+.card-text2 {
+    font-weight: 400;
+    font-size: 15.36px;
+    line-height: 22px;
+    margin-right: 1rem;
+    text-align: right;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .fathchil55 {
+        flex-direction: row;
+        align-content: center;
+        display: flex;
+    }
+
+
+    .card-body3 {
+        width: 50%;
+
+    }
+
+    #cB4 {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .card-2 {
+        width: 45%;
+    }
+
+    #cB4 {
+        display: none;
+    }
+
+    #cB5 {
+        display: none;
+    }
+
+    .fathchil55 {
+
+        flex-direction: column;
+        align-content: center;
+    }
+
+}
+
+/* insider 3*/
+.fathchil55 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+
+.card-body3 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: IBM Plex Sans Arabic;
+    border-radius: 10px;
+
+}
+
+/* End groub cards 1 */
+
+/* last of page last blue classand Foote */
+
+.runboytalk {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    align-content: space-around;
+    justify-content: center;
+}
+
+.texBoy1 {
+    width: 78%;
+    height: 33%;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 43.38px;
+    text-align: right;
+    flex-wrap: wrap;
+}
+
+.texBoy2 {
+    width: 68%;
+    height: 22%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.38px;
+    text-align: right;
+    opacity: 90%;
+    flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    #smallboyimg {
+        width: 45%;
+        height: 134%;
+
+    }
+
+    .runboy {
+        height: 6%;
+        margin-bottom: 4rem;
+    }
+
+
+    .runboytalk {
+        width: 50%;
+        height: 50%;
+        font-size: 98%;
+    }
+
+    .texBoy1 {
+        flex-wrap: wrap;
+        font-size: 18px;
+    }
+
+    .texBoy2 {
+        flex-wrap: wrap;
+        font-size: 13px;
+    }
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    #smallboyimg {
+        width: 47%;
+        height: 176%;
+    }
+
+    .runboy {
+        height: 5.08%;
+    }
+
+
+    .runboytalk {
+        width: 45%;
+        height: 40%;
+        font-size: 98%;
+    }
+
+    .texBoy1 {
+        flex-wrap: wrap;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .texBoy2 {
+        flex-wrap: wrap;
+        font-size: 11px;
+    }
+
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    height: 460px;
+    width:
+        93%;
+    margin-left: 2.5rem;
+    margin-bottom: 3rem;
+    background: #F04B25;
+    border-radius: 1px;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+
+.coll1 {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: right;
+    line-height: 30px;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}
+
+.biGico {
+    margin-top: 3rem;
+    height: 100%;
+    text-align: right;
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 767px) {
+    .footer {
+        margin-top: 50px;
+        height: 30%;
+        width: 88%;
+
+    }
+
+    .fotronhide {
+        display: none;
+    }
+
+    #lasphft {
+        padding-bottom: 1rem;
+        width: 90%;
+        height: 100%;
+    }
+}
+
+/* Footer END */
